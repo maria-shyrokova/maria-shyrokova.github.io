@@ -1,0 +1,363 @@
+body {  /*max-width:1900px, container width:1490px*/
+	margin:0;
+	padding:0;
+	font-size: 16px;
+}
+
+.container {
+	width: 78.4210526%;
+	margin: 0 auto;
+}
+
+header {
+	background: url(../images/title.jpg) no-repeat center top /cover;
+	overflow: hidden;
+}
+
+nav {
+	margin-top: 71px;
+	float: right;
+	width: 42%;
+}
+
+.menu {
+	padding:0;
+	margin:0;
+}
+
+.menu li {
+	float:right;
+	display:block;
+	margin-left: 5%;
+}
+
+.menu li a {
+	font: 1.125rem "Myriad Pro";
+	color:#3c3c3c;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.menu li a:hover {
+	outline: solid 1px;
+	padding: 7px 10px;
+	margin: -7px -10px;
+}
+
+h1 {
+	font: 2.5rem "Merriweather";
+	color: #3c3c3c;
+	float: right;
+	margin-top: 200px;
+	margin-left: 58%;
+	margin-bottom: 250px;
+	text-align: center;
+	width:42%;
+}
+
+.features {
+	background: #F9EF73;
+	width:100%;
+	overflow: hidden; 
+}
+
+.iconContainer {
+	width: 30%;
+	float: left;
+	text-align: center;
+	margin-top: 68px;
+	margin-bottom: 68px;
+}
+
+.iconContainer:nth-child(2){
+	width: 30%;
+	margin-left: 5%;
+	margin-top: 68px;
+	margin-bottom: 68px;
+}
+
+.iconContainer:last-child{
+	width: 30%;
+	float: right;
+	text-align: center;
+	margin-top: 68px;
+	margin-bottom: 68px;
+}
+
+.textIcon {
+	font: 1rem "Merriweather";
+}
+
+h2 {
+	font: 1.125rem "Merriweather";
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h3 {
+	font: 2.5rem "Merriweather";
+	color: #3c3c3c;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.taste_1 {
+	width: 32.43%;
+	float:left;
+	text-align: center;
+	overflow: hidden;
+	position:relative;
+	margin-bottom: 12px;
+}
+
+.taste_2_3 {
+	width: 32.43%;
+	text-align: center;
+	overflow: hidden;
+	position:relative;
+	margin-left:1.355%;
+	float:left;
+	margin-bottom: 12px;
+}
+
+.taste_5_6 {
+	width: 32.43%;
+	text-align: center;
+	overflow: hidden;
+	position:relative;
+	margin-left:1.355%;
+	float:left;
+	margin-bottom: 55px;
+
+}
+
+.inform {
+	 background:rgba(255,255,255, 0.6);
+	 position: absolute;
+	 display:none;
+	 left:0;
+	 bottom:0;
+     right:0;
+     top:0;
+}
+
+.textInf {
+	margin-top: 70px;
+}
+
+.textInf p {
+	font: 1rem "Merriweather";
+}
+
+.taste_1:hover .inform {
+	display: block;
+}
+
+.taste_2_3:hover .inform {
+	display: block;
+}
+
+.taste_5_6:hover .inform {
+	display: block;
+}
+
+.about {
+	background: url(../images/aboutUs.jpg) no-repeat center top /cover;
+	overflow: hidden;
+	clear: both;
+	text-align: center;
+}
+
+.aboutInf {
+	margin-top: 200px;
+	margin-bottom: 200px;
+	margin-right:55%;
+	width:45%;
+}
+
+.aboutInf p {
+	font: 1.125rem "Merriweather";
+	color: #3c3c3c;
+}
+
+.tabs {
+	
+	position: relative;
+}
+
+.tabs:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.tabs .delishMenu {
+	float: left;
+}
+
+.tabs .delishMenu > input {
+	display: none;
+}
+
+.tabs .delishMenu > label {
+	display: inline-block;
+	cursor: pointer;
+	font: 1.125rem "Merriweather";
+	color: #3c3c3c;
+	margin-right: 20px;
+}
+
+.tab-1 {
+	margin-left:360px;
+}
+
+.tabs .tab-content {
+	display: none;
+	position: absolute;
+	overflow-y: auto;
+	clear:both;
+	width: 100%;
+	min-height: 500px;
+	left:0;
+}
+ 
+		.column1 {
+			margin-top: 50px;
+			width:43%;
+			float:left;
+		}
+
+		.pointMenu {
+
+			font: 1.125rem "Merriweather";
+			color: #3c3c3c;
+			margin-bottom: 35px;
+		}
+
+		.dishComponents {
+			font: 1rem "Merriweather";
+			font-style: italic;
+			color: #3c3c3c;
+		}
+
+		.column2 {
+			margin-top: 50px;
+			width:43%;
+			float:right;
+		}
+ 
+.tabs .delishMenu > input:checked + label {
+	outline: solid 1px;
+	outline-color: #3c3c3c;
+}
+
+.tabs .delishMenu > input:checked ~ .tab-content {
+	display: block;
+}
+
+.contact {
+	background: url(../images/contact.jpg) no-repeat center top /cover;
+	overflow: hidden;
+	margin-top: 550px;
+}
+
+h4 {
+	font: 2.5rem "Merriweather";
+	color: #3c3c3c;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left:60%;
+	margin-right: auto;
+	text-align: center;
+}
+
+.contactColumn1{
+	font: 1rem "Merriweather";
+	color: #3c3c3c;
+	margin-left:60%;
+	float:left;
+	margin-bottom: 50px;
+}
+
+.contactColumn2{
+	font: 1rem "Merriweather";
+	color: #3c3c3c;
+	float: right;
+	margin-bottom: 50px;
+}
+
+.contactTitle {
+	font: 1.125rem "Merriweather";
+	color: #3c3c3c;
+	text-transform: uppercase;
+}
+
+.formTitle {
+	font: 1.125rem "Merriweather";
+	color: #3c3c3c;
+	text-transform: uppercase;
+	float: left;
+	margin-top: 30px;
+	margin-left: 60%;
+	margin-right:20%;
+	margin-bottom: 30px;
+}
+
+.placeholder {
+	font: 1rem "Merriweather";
+	font-style: italic;
+	padding-left: 25px;
+	border-style: none;
+	border: 0;
+	background-color: #F4F4F5;
+	border-bottom: solid 1px;
+}
+
+.contactColumn3 {
+	float:left;
+	margin-left: 60%;
+	margin-right:4.6%;
+}
+
+.contactColumn4 {
+	float:right;
+	margin-bottom: 50px;
+}
+
+.message {
+	margin-left: 60%;
+}
+
+.message input {
+	width:94%;
+}
+
+.nearbutton {
+	margin-left:78%;
+	margin-top: 50px;
+	margin-bottom:150px;
+}
+
+.button {
+	outline-style: none;
+	border-style: none;
+	outline: solid 1px;
+	background-color: #F4F4F5;
+	padding: 7px 10px;
+	margin: -7px -10px;
+	cursor: pointer;
+}
+
+.s_icon2 {
+	float: right;
+	margin-bottom: 33px;
+	display:block;
+}
+
+.s_icon1 {
+	margin-left: 1.4%;
+	float: right;
+	margin-bottom: 33px;
+	display:block;
+}
