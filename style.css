@@ -10,7 +10,7 @@ body {  /*max-width:1900px, container width:1490px*/
 }
 
 header {
-	background: url(../images/title.jpg) no-repeat center top /cover;
+	background: url(../title.jpg) no-repeat center top /cover;
 	overflow: hidden;
 }
 
@@ -163,7 +163,7 @@ h3 {
 }
 
 .about {
-	background: url(../images/aboutUs.jpg) no-repeat center top /cover;
+	background: url(../aboutUs.jpg) no-repeat center top /cover;
 	overflow: hidden;
 	clear: both;
 	text-align: center;
